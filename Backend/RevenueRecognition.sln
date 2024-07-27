@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RevenueRecognition", "RevenueRecognitionApp\RevenueRecognition.csproj", "{0BE2367D-9873-4F22-9C03-48D8A34178D7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RevenueRecognitionTest", "RevenueRecognitionTest\RevenueRecognitionTest.csproj", "{3B836C3F-F7DC-4629-9AC2-88EB09D8C65B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0BE2367D-9873-4F22-9C03-48D8A34178D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0BE2367D-9873-4F22-9C03-48D8A34178D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0BE2367D-9873-4F22-9C03-48D8A34178D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0BE2367D-9873-4F22-9C03-48D8A34178D7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B836C3F-F7DC-4629-9AC2-88EB09D8C65B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B836C3F-F7DC-4629-9AC2-88EB09D8C65B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B836C3F-F7DC-4629-9AC2-88EB09D8C65B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B836C3F-F7DC-4629-9AC2-88EB09D8C65B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0BE2367D-9873-4F22-9C03-48D8A34178D7} = {579A6CB0-2269-45F9-B449-3542D1E5CF29}
+		{3B836C3F-F7DC-4629-9AC2-88EB09D8C65B} = {DFE22602-2E9D-4D25-9E25-59FFFE383FC2}
+	EndGlobalSection
+EndGlobal

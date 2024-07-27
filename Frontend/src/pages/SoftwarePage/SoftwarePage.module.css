@@ -1,0 +1,54 @@
+.software {
+    padding: 20px;
+    background-color: #2c2c2c;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+h1 {
+    color: #e0e0e0;
+    text-align: center;
+}
+
+.searchInput {
+    width: 50%;
+    align-content: center;
+    margin-right: 5px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-size: 16px;
+    text-align: center;
+    background-color: #333333;
+    color: #ffffff;
+}
+
+.softwareList {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.softwareLink {
+    text-decoration: none;
+    color: inherit;
+}
+
+.softwareItem {
+    background-color: #444;
+    color: #e0e0e0;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    transition: background-color 0.3s ease;
+    text-align: center;
+}
+
+.softwareItem:hover {
+    background-color: #555;
+}

@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+.navigationBar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 25px;
+    font-family: "Open Sans", sans-serif;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+.navigationBar h1 {
+    color: rgb(92, 103, 199);
+    margin: 0;
+    padding: 15px 0;
+}
+
+.links {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    margin-right: 15px;
+}
+
+.links li {
+    margin-left: 15px;
+}
+
+.links a {
+    text-decoration: none;
+    color: rgb(92, 103, 199);
+    font-size: 25px;
+    font-weight: 650;
+    transition: background-color 0.3s ease;
+    padding: 10px;
+}
+
+.links a:hover {
+    text-decoration-color: rgb(38, 30, 55);
+    transition-delay: 0.1s;
+}

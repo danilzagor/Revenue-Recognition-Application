@@ -1,0 +1,118 @@
+.clientContainer {
+    color: #ffffff;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.clientDetails {
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #3a3a3a;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.clientDetails h2 {
+    color: #e0e0e0;
+    margin-bottom: 10px;
+    font-size: 24px;
+}
+
+.clientDetails h3 {
+    color: #b0b0b0;
+    margin: 5px 0;
+    font-size: 18px;
+}
+
+.button {
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    background-color: #7b1fa2;
+    color: #ffffff;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+    font-size: 16px;
+}
+
+.button:hover {
+    background-color: #a32c77;
+    transform: scale(1.05);
+}
+
+.contracts {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.contract {
+    background-color: #333333;
+    padding: 15px;
+    border-radius: 8px;
+    border: 1px solid #7b1fa2;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.contract h3 {
+    color: #e0e0e0;
+    margin-top: 0;
+    font-size: 20px;
+}
+
+.section {
+    margin-bottom: 15px;
+}
+
+.section p {
+    color: #b0b0b0;
+    font-size: 16px;
+}
+
+.section strong {
+    font-weight: bold;
+}
+
+.errorMessage {
+    color: red;
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+.editFormContainer {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #3a3a3a;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.editFormContainer form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.formGroup {
+    display: flex;
+    flex-direction: column;
+}
+
+.formGroup label {
+    margin-bottom: 5px;
+    color: #e0e0e0;
+}
+
+.formGroup input {
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+    border: 1px solid #666;
+    background-color: #444;
+    color: #e0e0e0;
+}
